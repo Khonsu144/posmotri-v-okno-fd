@@ -152,6 +152,7 @@ html {
 .content__video-card-description{
   line-height: 16.2px;
   font-size: 18px;
+  line-clamp: 4;
   -webkit-line-clamp: 4;
   display: -webkit-box;
   -webkit-box-orient: vertical;
