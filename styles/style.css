@@ -55,7 +55,6 @@ html {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 26px;
   min-height: 100%;
 }
 
@@ -290,7 +289,7 @@ html {
 }
 
 .content__card-link_current {
-  background: #545050; 
+  background: #545050;
 }
 
 .content__card-link_current:hover {
