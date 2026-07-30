@@ -125,18 +125,13 @@ html {
 .title {
   font-size: 75px;
   font-weight: 700;
-  line-height: 94%;;
+  line-height: 94%;
   text-transform: uppercase;
 }
 
 .content__accent {
   color: #545050;
   font-weight: 400;
-}
-
-.content__card-link {
-  text-decoration: none;
-  color: #FFFFFF;
 }
 
 .content__video-card-title {
