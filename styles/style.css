@@ -42,6 +42,7 @@ html {
   width: 100%;
   gap: 30px;
   padding: 50px;
+  min-height: 100%;
 }
 
 .result {
@@ -92,6 +93,9 @@ html {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .content__video-card {
@@ -112,6 +116,8 @@ html {
 
 .search-form__fieldset {
   border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .search-form__fieldset-title {
@@ -119,6 +125,8 @@ html {
   font-weight: 400;
   border: none;
   font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .title {
@@ -126,11 +134,14 @@ html {
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 .content__accent {
   color: #545050;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .content__video-card-title {
@@ -142,6 +153,8 @@ html {
   overflow: hidden;
   width: 196px;
   font-family: 'Oswald', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .content__video-card-description {
@@ -153,6 +166,8 @@ html {
   -webkit-box-orient: vertical;
   overflow: hidden;
   font-family: 'Fira Sans Condensed', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .visually-hidden {
@@ -175,10 +190,12 @@ html {
   align-items: center;
   width: fit-content;
   gap: 5px;
+  cursor: pointer;
 }
 
 .search-form__textfield {
   font-size: 18px;
+  width: 225px;
   border: solid #FFFFFF 1px;
   color: #fff;
   background: transparent;
@@ -229,18 +246,19 @@ html {
   outline: none;
   font-size: 18px;
   font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 700;
 }
 
 .search-form__submit-button {
-  width: fit-content;
-  padding: 10px 77px;
   align-self: flex-end;
-  min-height: 44px;
+  min-height: 34px;
+  width: 194px;
+  padding: 0;
 }
 
 .more-button {
-  width: 100%;
-  padding: 13px;
+  width: 390px;
+  min-height: 34px;
 }
 
 .button:hover {
@@ -292,12 +310,3 @@ html {
   background: #545050;
 }
 
-.content__card-link_current:hover {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.content__card-link_current:focus-visible {
-  outline: 1px solid #fff;
-  outline-offset: 1px;
-}
