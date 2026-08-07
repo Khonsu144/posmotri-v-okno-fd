@@ -42,7 +42,7 @@ html {
   width: 100%;
   gap: 30px;
   padding: 50px;
-  min-height: 100%;
+  max-width: 1200px;
 }
 
 .result {
@@ -50,6 +50,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: start;
+  max-width: 711px;
 }
 
 .content__details {
@@ -135,7 +136,7 @@ html {
   line-height: 94%;
   text-transform: uppercase;
   margin: 0;
-  padding: 0;
+  padding-bottom: 26px;
   font-family: 'Oswald', sans-serif;
 }
 
