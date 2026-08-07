@@ -12,6 +12,7 @@ html {
   display: flex;
   font-family: 'Fira Sans Condensed', sans-serif;
   inline-size: 1200px;
+  block-size: 100%;
   margin: auto;
   color: #fff;
   font-size: 18px;
